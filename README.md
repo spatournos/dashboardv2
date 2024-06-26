@@ -7,6 +7,7 @@ I simply updated the code to fix broken dependencies for June 2024
 
 Code from: https://github.com/ed-roh/react-admin-dashboard<br>
 Video: https://www.youtube.com/watch?v=wYpCWwD1oz0
+Demo Page : https://spatournos.github.io/dashboardv2/
 
 # Getting Started with Create React App
 
