@@ -10,6 +10,8 @@ const GeographyChart = ({ isDashboard = false }) => {
   return (
     <ResponsiveChoropleth
       data={data}
+      colors="BrBG"
+  
       theme={{
         axis: {
           domain: {
