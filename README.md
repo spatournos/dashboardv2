@@ -6,8 +6,8 @@ Original Code, All Credits and Many Thanks to @[ed-roh](https://github.com/ed-ro
 I simply updated the code to fix broken dependencies for June 2024
 
 Code from: https://github.com/ed-roh/react-admin-dashboard<br>
-Video: https://www.youtube.com/watch?v=wYpCWwD1oz0
-Demo Page : https://spatournos.github.io/dashboardv2/
+Video: https://www.youtube.com/watch?v=wYpCWwD1oz0<br> 
+Demo Page : https://spatournos.github.io/dashboardv2/<br> 
 
 # Getting Started with Create React App
 
