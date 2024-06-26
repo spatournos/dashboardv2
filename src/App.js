@@ -1,7 +1,9 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 
 import { ColorModeContext, useMode } from './theme';
 import { CssBaseline, ThemeProvider } from '@mui/material';
+
+import Home from "./components/Home";
 
 import TopBar from './scenes/global/TopBar'
 import SideBar from './scenes/global/SideBar'
@@ -29,7 +31,8 @@ function App() {
         <main className='content'>
           <TopBar />
           <Routes>
-              <Route path="/" element={<Dashboard />} />
+              <Route path="/" element={<Home />} />
+              <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/team" element={<Team />} />
               <Route path="/contacts" element={<Contacts />} />
               <Route path="/invoices" element={<Invoices />} />
@@ -40,6 +43,8 @@ function App() {
               <Route path="/pie" element={<Pie />} />
               <Route path="/line" element={<Line />} />
               <Route path="/geography" element={<Geography />} />
+              <Route path="/404" element={<div>Choose the correct path</div>} />
+              <Route path="*" element={<Navigate replace to="/404" />} />
             </Routes>
         </main> 
       </div>
