@@ -1,7 +1,11 @@
+![Model](https://github.com/spatournos/dashboardv2/blob/master/src/assets/dashboardv2.png)
 # React Admin Dashboard
 
-Build a COMPLETE React Admin Dashboard App | React, Material UI, Data Grid, Light & Dark Mode
+Build a COMPLETE React Admin Dashboard App | React, Material UI, Data Grid, Light & Dark Mode<br>
+Original Code, All Credits and Many Thanks to @[ed-roh](https://github.com/ed-roh).<br> 
+I simply updated the code to fix broken dependencies for June 2024
 
+Code from: https://github.com/ed-roh/react-admin-dashboard<br>
 Video: https://www.youtube.com/watch?v=wYpCWwD1oz0
 
 # Getting Started with Create React App
