@@ -1,7 +1,7 @@
 # React Admin Dashboard
 
 Build a COMPLETE React Admin Dashboard App | React, Material UI, Data Grid, Light & Dark Mode
-Original Code, All Credits and Many Thanks to @ed-roh. 
+Original Code, All Credits and Many Thanks to @[ed-roh](https://github.com/ed-roh). 
 I simply updated the code to fix broken dependencies
 
 Code from: https://github.com/ed-roh/react-admin-dashboard
