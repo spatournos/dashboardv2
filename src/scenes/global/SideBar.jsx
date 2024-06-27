@@ -6,7 +6,8 @@ import { Link } from "react-router-dom";
 import { tokens } from "../../theme";
 //import "react-pro-sidebar/dist/css/styles.css";
 
-import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
+//import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
+import DashboardOutlinedIcon from '@mui/icons-material/DashboardOutlined';
 import PeopleOutlinedIcon from "@mui/icons-material/PeopleOutlined";
 import ContactsOutlinedIcon from "@mui/icons-material/ContactsOutlined";
 import ReceiptOutlinedIcon from "@mui/icons-material/ReceiptOutlined";
@@ -127,7 +128,7 @@ const SideBar = () => {
             <Item
               title="Dashboard"
               to="/dashboard"
-              icon={<HomeOutlinedIcon />}
+              icon={<DashboardOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />

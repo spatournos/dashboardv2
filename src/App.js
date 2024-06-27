@@ -4,6 +4,7 @@ import { ColorModeContext, useMode } from './theme';
 import { CssBaseline, ThemeProvider } from '@mui/material';
 
 import Home from "./components/Home";
+import NotFound from './components/NotFound';
 
 import TopBar from './scenes/global/TopBar'
 import SideBar from './scenes/global/SideBar'
@@ -43,7 +44,7 @@ function App() {
               <Route path="/pie" element={<Pie />} />
               <Route path="/line" element={<Line />} />
               <Route path="/geography" element={<Geography />} />
-              <Route path="/404" element={<div>Choose the correct path</div>} />
+              <Route path="/404" element={<NotFound />} />
               <Route path="*" element={<Navigate replace to="/404" />} />
             </Routes>
         </main> 
