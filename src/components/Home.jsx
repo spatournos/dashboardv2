@@ -25,7 +25,7 @@ function Home() {
         </Typography>
         <Typography variant="h5" color={colors.greenAccent[500]}>
         <br/> This application consists of Light and Dark Mode, 4 different Charts,<br/> 
-          3 different Data Table Pages, FAQ Page, Form Page, and Calendar Integration.<br/> 
+          3 different Data Table Pages, FAQ Page, Form Page and Calendar Integration.<br/> 
         </Typography>
         <Typography variant="h5" color={colors.greenAccent[500]}>
         <br/> Follow the dev: <br/> 
