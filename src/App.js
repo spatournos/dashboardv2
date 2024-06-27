@@ -32,7 +32,10 @@ function App() {
         <main className='content'>
           <TopBar />
           <Routes>
+              {/* root folder for app */}
               <Route path="/" element={<Home />} />
+              {/* root folder for github pages */}
+              <Route path="/dashboardv2" element={<Home />} />
               <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/team" element={<Team />} />
               <Route path="/contacts" element={<Contacts />} />

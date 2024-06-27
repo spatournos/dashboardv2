@@ -20,7 +20,7 @@ function Home() {
           React Admin Dashboard Tutorial from scratch by Ed Roh.<br/> <br/>  
           Using ReactJS, Material UI, Nivo Charts, <br/>  
           Formik, Yup, FullCalendar and Data Grid <br/> 
-           to build this entire application.<br/>  
+          to build this entire application.<br/>  
           
         </Typography>
         <Typography variant="h5" color={colors.greenAccent[500]}>
